@@ -6,6 +6,7 @@ print(d)
 e=c+d
 print(e)
 
+#three digit number
 a=int(input("enter any three digit number"))
 b=a//100
 print(b)
