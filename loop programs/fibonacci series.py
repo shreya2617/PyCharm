@@ -1,0 +1,11 @@
+prev=0
+next=1
+n=int(input("enter no. of terms"))
+i=1
+print(prev,next,end=' ')
+while i<=n:
+    r=prev+next
+    print(r,end=' ')
+    prev=next
+    next=r
+    i=i+r
